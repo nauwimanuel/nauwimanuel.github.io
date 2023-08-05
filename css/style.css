@@ -1,25 +1,26 @@
+* body {
+  color: rgb(156, 7, 144);
+}
 body nav a.navbar-brand {
-  font-family: "Parisienne", cursive;
+  font-family: "Edu VIC WA NT Beginner";
   font-weight: bold;
 }
 
 body nav {
   background-color: hsl(0, 0%, 100%);
-  /* background-color: hsl(197, 41%, 30%); */
-  /* background-color: #c6d6b9; */
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
 
 nav div.collapse ul li a {
-  font-family: "Parisienne";
-  color: rgb(18, 17, 17);
+  font-family: "Edu VIC WA NT Beginner";
+  color: rgb(156, 7, 144);
   font-weight: bold;
   font-size: large;
 }
 
 nav div.collapse ul li a:hover {
-  font-family: "Parisienne";
+  font-family: "Edu VIC WA NT Beginner";
   font-weight: bolder;
   font-size: x-large;
   transition: 0.3s;
@@ -29,9 +30,8 @@ svg.pertama {
   margin-top: 80px;
 }
 
-.pembuka {
-  background-color: hsl(197, 41%, 30%);
-  /* background-color: #c6d6b9; */
+.pembuka{
+  background-color: hsl(61, 70%, 56%);
 }
 
 .tanggal {
@@ -40,24 +40,26 @@ svg.pertama {
 }
 .pembuka .judul {
   font-family: "Edu VIC WA NT Beginner";
-  color: rgb(0, 0, 0);
-  background-color: hsl(197, 41%, 30%);
+  color: rgb(156, 7, 144);
+  background-color: hsl(61, 70%, 56%);
 }
 
 section.doa {
-  background-color: white;
   font-family: "Edu VIC WA NT Beginner";
 }
 
 .profil {
-  background-color: hsl(197, 41%, 30%);
-  /* background-color: #c6d6b9; */
+  background-color: hsl(61, 70%, 56%);
+}
+
+.profil111 {
+  background-color: hsl(61, 70%, 56%);
 }
 
 .profil .judulprofil {
   font-family: "Edu VIC WA NT Beginner";
   text-align: center;
-  color: black;
+  color: rgb(156, 7, 144);
 }
 
 .profil .namacalon {
@@ -67,35 +69,38 @@ section.doa {
 
 .galleri .judulgaleri {
   font-family: "Edu VIC WA NT Beginner";
-  color: black;
+  color: rgb(156, 7, 144);
+}
+
+.mengundang1 {
+  background-color: hsl(61, 70%, 56%);
 }
 
 .lokasi {
-  background-color: hsl(197, 41%, 30%);
-  /* background-color: #c6d6b9; */
+  background-color: hsl(61, 70%, 56%);
 }
 
 .lokasi .judullokasi {
   font-family: "Edu VIC WA NT Beginner";
-  color: black;
+  color: rgb(156, 7, 144);
 }
 
 .lokasi .judullokasi a {
   text-align: start;
   text-decoration: none;
-  color: black;
+  color: rgb(156, 7, 144);
 }
 
 footer {
   font-family: "Edu VIC WA NT Beginner";
-  color: black;
+  color: rgb(156, 7, 144);
 }
 
 footer p a {
   text-decoration: none;
-  color: black;
+  color: rgb(156, 7, 144);
 }
 footer p a:hover {
   text-decoration: none;
-  color: black;
+  color: rgb(156, 7, 144);
 }
