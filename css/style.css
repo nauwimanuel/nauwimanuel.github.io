@@ -4,6 +4,7 @@
 body nav a.navbar-brand {
   font-family: "Edu VIC WA NT Beginner";
   font-weight: bold;
+  color: rgb(156, 7, 144);
 }
 
 body nav {

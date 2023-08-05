@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Undangan Ramah Tamah</title>
 
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/AnyConv.com__Logo UNIPA.ico" type="image/x-icon" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
@@ -25,20 +25,20 @@
       <div class="col-sm">
         <nav class="navbar navbar-light fixed-top navbar-expand-sm shadow-sm opacity-75" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1150">
           <div class="container">
-            <a class="navbar-brand">Fakultas Teknik UNIPA</a>
+            <a class="navbar-brand" href="#">Fakultas Teknik UNIPA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#home1">Kepada</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="#about1">Mengundang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#galeri1">Waktu</a>
+                  <a class="nav-link" href="#galeri1">Susunan Acara</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#lokasi1">Alamat</a>
@@ -67,7 +67,7 @@
         </div>
         <div class="row text-center">
           <div class="col-sm-12">
-            <h3 class="judul" style="font-size: 46px" data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="1150">Manuel Nauw, S.T</h3>
+            <h3 id="undang" class="judul" style="font-size: 46px" data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="1150">Manuel Nauw, S.T</h3>
           </div>
           
           <div class="col-sm-12 text-center">
@@ -82,7 +82,7 @@
       </div>
     </section>
 
-    <svg id="about1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="hsl(61, 70%, 56%)"
         fill-opacity="1"
@@ -103,7 +103,7 @@
       </div>
     </section>
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="about1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="hsl(61, 70%, 56%)"
         fill-opacity="1"
@@ -152,7 +152,7 @@
         <div class="row">
           <div class="col-sm-12 text-center" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1150">
             <h4 class="doajudul mt-3">
-              1. Pembuka <br>
+              1. Pembukaan <br>
               2. DOA <br>
               3. Menyanyikan Lagu (Indonesia Raya & Hymne UNIPA) <br>
               4. Penyerahan Surat Keterangan Lulus <br>
@@ -257,10 +257,47 @@
               }
           }
       }
-      var modul = GetURLParameter('modul');
-      var aksi = GetURLParameter('aksi');
-      document.getElementById("modul").innerHTML = modul;
-      document.getElementById("aksi").innerHTML = aksi;
+      let undang = {
+        202308101: 'Staf & Dosen Fakultas Teknik UNIPA',
+
+        201965048: 'Sri Putri Aulia Syam, S.T',
+        201965055: 'Nurul Putri Ramadhani, S.T',
+        201965056: 'Clara Amalia Ismayanti, S.T',
+        201765074: 'Dhian Pramana Aschary, S.T',
+        201765046: 'Agri Dwi Raga Febriarman, S.T',
+        201865016: 'Beatrix Audrey Ramar, S.T',
+        201665036: 'Cony Paula Nurena Mambraku, S.T',
+        201765060: 'Gladys Madatasya Sawaki, S.T',
+        201665030: 'Muhammad Amri Quilo, S.T',
+        201665014: 'Achmad Chairuddin Agrifandi, S.T',
+        201665047: 'Syahril Tesar Heremba, S.T',
+        201865044: 'Ritje Sukmawati, S.T',
+        201665035: 'Meike Agnes Rumure, S.T',
+
+        202079041: 'Valentina Barek Wara, S.T',
+        201979060: 'Octovianus Kareth, S.T',
+        201879015: 'Syabar Devid Rumakito, S.T',
+        201879058: 'Jek Renol Sawaky, S.T',
+        201879046: 'Kornelius Kolo, S.T',
+        201879016: 'Candra Sinaga, S.T',
+
+        201852050: 'Yulianus Agustino Manggara, A.Md,.',
+        202052012: 'Donny Irwanto Damara, A.Md,.',
+        201852048: 'Fernanda Falentina N. Maniambo, A.Md',
+        201852045: 'Alfanita Yenu, A.Md,.',
+        201952024: 'Auyewer Yafet Mnsen, A.Md,.',
+        202052002: 'Mulya Sukma Agus Salam, A.Md,.',
+        202052010: 'Yakoba Barmince Sasarari, A.Md.T',
+        202052030: 'Rama Widhayaka, A.Md,.',
+        202052009: 'Boudekeyn George Rumawak, A.Md,.',
+
+        201843024: 'Yabes M. Rumbewas, S.T',
+        201743034: 'Acin Maabuat Larenaung, S.T',
+        202043002: 'Charles Teurupun, S.T',
+        202043010: 'Bagus Emon Nugroho, S.T',
+      };
+      var id = GetURLParameter('id');
+      document.getElementById("undang").innerHTML = undang[id];
     </script>
   </body>
 </html>
