@@ -1,10 +1,20 @@
 * body {
-  color: rgb(156, 7, 144);
-}
-body nav a.navbar-brand {
+  color: #333333 !important;
   font-family: "Edu VIC WA NT Beginner";
+}
+
+.bg {
+  background-color: lightblue;
+}
+
+body nav a.navbar-brand {
   font-weight: bold;
-  color: rgb(156, 7, 144);
+  color: #333333;
+}
+
+body nav a.navbar-brand:hover {
+  font-weight: bold;
+  color: #0f0f0f;
 }
 
 body nav {
@@ -14,94 +24,45 @@ body nav {
 }
 
 nav div.collapse ul li a {
-  font-family: "Edu VIC WA NT Beginner";
-  color: rgb(156, 7, 144);
+  color: #333333;
   font-weight: bold;
   font-size: large;
 }
 
 nav div.collapse ul li a:hover {
-  font-family: "Edu VIC WA NT Beginner";
   font-weight: bolder;
   font-size: x-large;
   transition: 0.3s;
+  color: #0f0f0f;
 }
 
 svg.pertama {
   margin-top: 80px;
 }
 
-.pembuka{
-  background-color: hsl(61, 70%, 56%);
-}
-
 .tanggal {
-  font-family: "Edu VIC WA NT Beginner";
   color: white;
 }
-.pembuka .judul {
-  font-family: "Edu VIC WA NT Beginner";
-  color: rgb(156, 7, 144);
-  background-color: hsl(61, 70%, 56%);
-}
 
-section.doa {
-  font-family: "Edu VIC WA NT Beginner";
-}
-
-.profil {
-  background-color: hsl(61, 70%, 56%);
-}
-
-.profil111 {
-  background-color: hsl(61, 70%, 56%);
+.judul {
+  color: #333333;
 }
 
 .profil .judulprofil {
-  font-family: "Edu VIC WA NT Beginner";
   text-align: center;
-  color: rgb(156, 7, 144);
+  color: #333333;
 }
 
-.profil .namacalon {
-  font-family: "Edu VIC WA NT Beginner";
-  font-size: 20px;
-}
-
-.galleri .judulgaleri {
-  font-family: "Edu VIC WA NT Beginner";
-  color: rgb(156, 7, 144);
-}
-
-.mengundang1 {
-  background-color: hsl(61, 70%, 56%);
-}
-
-.lokasi {
-  background-color: hsl(61, 70%, 56%);
-}
-
-.lokasi .judullokasi {
-  font-family: "Edu VIC WA NT Beginner";
-  color: rgb(156, 7, 144);
-}
-
-.lokasi .judullokasi a {
+.judullokasi a {
   text-align: start;
   text-decoration: none;
-  color: rgb(156, 7, 144);
-}
-
-footer {
-  font-family: "Edu VIC WA NT Beginner";
-  color: rgb(156, 7, 144);
+  color: #333333;
 }
 
 footer p a {
   text-decoration: none;
-  color: rgb(156, 7, 144);
 }
 footer p a:hover {
   text-decoration: none;
-  color: rgb(156, 7, 144);
+  color: #0f0f0f;
 }
