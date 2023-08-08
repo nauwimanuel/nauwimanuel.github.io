@@ -76,7 +76,7 @@
         </div>
         <div class="row text-center">
             <div class="col-sm-12">
-              <h4 class="judul text-center mt-3" data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="1150">16:00 WIT - Selesai</h4>
+              <h4 class="judul text-center mt-3" data-aos="fade-down-right" data-aos-delay="1000" data-aos-duration="1150">15:30 WIT - Selesai</h4>
             </div>
           </div>
       </div>
@@ -95,7 +95,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1150">
-            <div class="col-sm-12 text-center"><img src="img/Logo UNIPA.png" class="img-fluid" alt="..." data-aos="fade-down-left" data-aos-delay="1000" data-aos-duration="1150"></div>
+            <div class="col-sm-12 text-center">
+              <img src="img/Logo UNIPA.png" class="img-fluid" alt="..." data-aos="fade-down-left" data-aos-delay="1000" data-aos-duration="1150" width="150px">
+            </div>
             <h4 class="doajudul mt-3">
               "Ramah Tamah dalam Rangka Wisuda Sarjana dan Diploma Tahap III Tahun Akademik 2022/2023 Fakultas Teknik Universitas Papua"
             </h4>
@@ -116,7 +118,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm text-center">
-            <h2 class="judulgaleri11" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1150">~ Dekan Fakultas Teknik Universitas Papua ~</h2>
+            <h2 class="judulgaleri11" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1150">~ Dekan Fakultas Teknik UNIPA ~</h2>
           </div>
         </div>
         <div class="row">
@@ -125,7 +127,7 @@
               Dengan hormat mengundang Bapak/Ibu, saudara/i, pada acara "Ramah Tamah dalam Rangka Wisuda Sarjana dan Diploma Tahap III Tahun Akademik 2022/2023 Fakultas Teknik Universitas Papua" yang akan dilaksanakan pada: 
               <br><br><b>
               Kamis, 10 Agustus 2023 <br>
-              16:00 WIT <br>
+              15:30 WIT <br>
               Waisai Room Lt.5, Valdos Hotel, Jl Trikora Wosi-Manokwari <br>
               <br> </b>
               Atas kehadiran Bapak/Ibu, Saudara/i diucapkan terima kasih.
@@ -162,8 +164,9 @@
               6. Persembahan Wisudawan/i <br>
               7. Pesan dan Kesan <br>
               8. Sambutan-sambutan <br>
-              9. Foto Bersama <br>
-              10. Penutup <br>
+              9. Menyanyikan Lagu Papua Pulau Indah <br>
+              10. Foto Bersama <br>
+              11. Penutup <br>
             </h4>
           </div>
         </div>
@@ -235,8 +238,28 @@
     </svg>
 
     <footer class="text-center">
-      <p>Panitia Ramah Sarjana & Diploma Tahap III Tahun 2022/2023</p>
+      <p>Panitia Ramah Tamah Sarjana & Diploma Fakultas Teknik UNIPA 2022/2023</p>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="idModal" tabindex="-1" aria-labelledby="idModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="idModalLabel">Masukkan NIM untuk membuka undangan</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="idForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="inputID" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Buka Undangan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
@@ -262,6 +285,8 @@
       let undang = {
         202308101: 'Staf & Dosen Fakultas Teknik UNIPA',
 
+        201765025: 'Thesiana Kala Lembang, S.T',
+
         201965048: 'Sri Putri Aulia Syam, S.T',
         201965055: 'Nurul Putri Ramadhani, S.T',
         201965056: 'Clara Amalia Ismayanti, S.T',
@@ -283,15 +308,15 @@
         201879046: 'Kornelius Kolo, S.T',
         201879016: 'Candra Sinaga, S.T',
 
-        201852050: 'Yulianus Agustino Manggara, A.Md,.',
-        202052012: 'Donny Irwanto Damara, A.Md,.',
-        201852048: 'Fernanda Falentina N. Maniambo, A.Md',
-        201852045: 'Alfanita Yenu, A.Md,.',
-        201952024: 'Auyewer Yafet Mnsen, A.Md,.',
-        202052002: 'Mulya Sukma Agus Salam, A.Md,.',
+        201852050: 'Yulianus Agustino Manggara, A.Md.T',
+        202052012: 'Donny Irwanto Damara, A.Md.T',
+        201852048: 'Fernanda Falentina N. Maniambo, A.Md.T',
+        201852045: 'Alfanita Yenu, A.Md.T',
+        201952024: 'Auyewer Yafet Mnsen, A.Md.T',
+        202052002: 'Mulya Sukma Agus Salam, A.Md.T',
         202052010: 'Yakoba Barmince Sasarari, A.Md',
-        202052030: 'Rama Widhayaka, A.Md,.',
-        202052009: 'Boudekeyn George Rumawak, A.Md,.',
+        202052030: 'Rama Widhayaka, A.Md.T',
+        202052009: 'Boudekeyn George Rumawak, A.Md.T',
 
         201843024: 'Yabes M. Rumbewas, S.T',
         201743034: 'Acin Maabuat Larenaung, S.T',
@@ -306,6 +331,38 @@
       } else {
         document.getElementById("mhs").innerHTML = "Orang Tua / Wali";
       }
+      
+
+      // Modal Box 
+      // =========
+      const validIDs = ["202308101", "201765025", "201965048", "201965055", "201965056", "201765074", "201765046", "201865016", "201665036", "201765060", "201665030", "201665014", "201665047", "201865044", "201665035", "202079041", "201979060", "201879015", "201879058", "201879046", "201879016", "201852050", "202052012", "201852048", "201852045", "201952024", "202052002", "202052010", "202052030", "202052009", "201843024", "201743034", "202043002", "202043010"];
+
+      // Fungsi untuk mengirimkan form dan mengalihkan ke URL dengan parameter ID
+      function openInvitation(event) {
+        event.preventDefault();
+        const inputID = document.getElementById('inputID').value;
+        if (validIDs.includes(inputID)) {
+          window.location.href = window.location.href + '?id=' + inputID;
+        } else {
+          alert("NIM yang dimasukkan tidak ada pada daftar undangan.");
+        }
+      }
+
+      // Event listener untuk tombol submit di form modal
+      document.getElementById('idForm').addEventListener('submit', openInvitation);
+
+      // Fungsi untuk menampilkan modal saat halaman dimuat
+      function showIDModal() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const idParam = urlParams.get('id');
+        if (!idParam) {
+          const idModal = new bootstrap.Modal(document.getElementById('idModal'), {});
+          idModal.show();
+        }
+      }
+
+      // Panggil fungsi showIDModal saat halaman selesai dimuat
+      document.addEventListener("DOMContentLoaded", showIDModal);
     </script>
   </body>
 </html>

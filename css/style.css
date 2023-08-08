@@ -1,6 +1,19 @@
 * body {
   color: #333333 !important;
-  font-family: "Edu VIC WA NT Beginner";
+  /* font-family: "Edu VIC WA NT Beginner"; */
+  font-family: "Times New Roman";
+}
+
+/* Gaya untuk latar belakang backdrop */
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.9); /* Ubah nilai alpha (0.5) sesuai kebutuhan */
+}
+
+/* Gaya untuk posisi modal */
+.modal-dialog.modal-dialog-centered {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .bg {
