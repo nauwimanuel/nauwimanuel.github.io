@@ -1,5 +1,5 @@
 * body {
-  color: #333333 !important;
+  color: black;
   /* font-family: "Edu VIC WA NT Beginner"; */
   font-family: "Times New Roman";
 }
@@ -17,7 +17,8 @@
 }
 
 .bg {
-  background-color: #ffff;
+  background-color: purple;
+   color: yellow !important; /* Warna teks */
 }
 
 body nav a.navbar-brand {
@@ -69,7 +70,7 @@ svg.pertama {
 .judullokasi a {
   text-align: start;
   text-decoration: none;
-  color: #333333;
+  color: yellow;
 }
 
 footer p a {
